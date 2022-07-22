@@ -17,8 +17,14 @@
 /*** header styles ***/
 .header-container {
   background-color: rgb(34, 37, 52);
-  height: 50vh;
-  margin: 15px 15px;
+  height: 60vh;
+  width: 98vw;
+  margin: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 60px;
 }
 
 .header-container .header-logos-container {
@@ -37,7 +43,7 @@
   flex-direction: column;
   gap: 25px;
   width: 40%;
-  margin: 15px 45px;
+  margin: 35px 45px;
 }
 
 .header-text-container h1 {
